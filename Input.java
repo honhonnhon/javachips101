@@ -22,19 +22,19 @@ public class Input {
         double BMI = weight/(height*height);
         System.out.println("BMI = " +BMI);
         if (BMI < 18.5){
-            System.out.println("Your BMI is under average.");
+            System.out.println("Underweight.");
         }
         else if ((18.5 <= BMI)&&(BMI <= 22.9)){
-            System.out.println("Your BMI is average.");
+            System.out.println("Healthy.");
         }
         else if ((23.0 <= BMI)&&(BMI <= 24.9)){
-            System.out.println("Your BMI is above average.");
+            System.out.println("Overweight.");
         }
         else if ((25.0 <= BMI)&&(BMI <= 29.9)){
-            System.out.println("You're fat.");
+            System.out.println("Obese class I.");
         }
         else if (30.0 <= BMI){
-            System.out.println("You're fucking fat go exercise.");
+            System.out.println("Obese class II.");
         }
         
         sc.close();
