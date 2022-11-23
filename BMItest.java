@@ -1,5 +1,5 @@
 import java.util.Scanner;// import scanner
-public class Input {
+public class BMItest {
     public static void main(String[] args) {
         //1.รับค่าข้อมูลโดยการimport Scanner ของ java
         Scanner sc = new Scanner(System.in);
