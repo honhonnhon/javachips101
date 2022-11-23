@@ -30,7 +30,6 @@ public class Math {
                     System.out.println("error");
                     break;
             }
-
         }
         sc.close();
     }
