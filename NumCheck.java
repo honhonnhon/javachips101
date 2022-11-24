@@ -7,15 +7,13 @@ public class NumCheck {
         System.out.print("Enter Num 2 : ");
         float b = key.nextFloat();
         if (a == b){
-            System.out.println("Num 1 is equal to Num 2.");
+            System.out.println(a+ " is equal to "+b+".");
         }
-        else if (a != b){
-            if (a > b){
-                System.out.println("Num 1 is more than Num 2.");
-            }
-            else if (a < b){
-                System.out.println("Num 1 is less than Num 2.");
-            }
+        else if (a > b){
+            System.out.println(a+ " is greater than "+b+ ".");
+        }
+        else if (a < b){
+            System.out.println(a+ " is less than "+b+".");
         }
         key.close();
     }
