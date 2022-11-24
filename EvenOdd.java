@@ -4,13 +4,10 @@ public class EvenOdd {
         Scanner key = new Scanner(System.in);
         System.out.print("Enter Number : ");
         int x = key.nextInt();
-        if ((x%2) == 0){
-            System.out.println(x+ " is an even number.");
-            //Note : Zero is an even number refer from parity of zero.
-        }
-        else if ((x%2) == 1){
-            System.out.println(x+ " is an odd number.");
-        }
+        String result = "";
+        result = x%2 == 0 ? x+ " is an even number." : x+ " is an odd number.";
+        //Note : Zero is an even number refer from parity of zero.
+        System.out.println(result);
         key.close();
     }
 }
