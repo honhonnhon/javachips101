@@ -6,7 +6,7 @@ public class MultiplicationTables {
        int x = key.nextInt();
        int y = 1;
        System.out.println(x+" Times Table.");
-       while ((y > 0) && (y <= 12)) {
+       while (y <= 12) {
             System.out.println(x+"x"+y+" = "+(x*y));
             y++;
        }
