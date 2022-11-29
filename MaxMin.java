@@ -6,7 +6,7 @@ public class MaxMin {
         while(true){
             System.out.print("Enter number : ");
             int num = key.nextInt();
-            if (num<0)break;
+            if (num<0)break; //Enter minus value to end program
             if (num>Maxnum)Maxnum = num;
             if (num<Maxnum)Minnum = num;
         }
